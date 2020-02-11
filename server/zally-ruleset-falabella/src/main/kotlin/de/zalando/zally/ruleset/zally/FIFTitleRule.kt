@@ -8,7 +8,7 @@ import de.zalando.zally.rule.api.Severity
 import de.zalando.zally.rule.api.Violation
 
 @Rule(
-    ruleSet = ZallyRuleSet::class,
+    ruleSet = FalabellaRuleSet::class,
     id = "1000",
     severity = Severity.SHOULD,
     title = "Should have 'FIF' on api title"
