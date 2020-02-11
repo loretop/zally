@@ -6,6 +6,8 @@ import java.net.URI
 
 class FalabellaRuleSet : AbstractRuleSet() {
 
+    override val id = "F"
+
     override val url: URI = URI.create("https://github.com/loretop/zally/blob/master/server/rules-falabella.md")
 
 }
