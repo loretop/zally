@@ -13,8 +13,9 @@ cd zally/server
 ```
 ./gradlew bootRun
 ```
-El servidor estará corriendo cuando la terminal muestre un mensaje como este (no importa que salga 97%): 
-Started ApplicationKt in 76.343 seconds (JVM running for 77.092)
+El servidor estará corriendo cuando la terminal muestre un mensaje como este (independiente de que no se complete al 100%): 
+
+`Started ApplicationKt in 76.343 seconds (JVM running for 77.092)` 
 
 ## Usar Zally desde la línea de comandos
 1. Levantar Zally Server
@@ -95,7 +96,7 @@ interface RuleSet {
     fun url(rule: Rule): URI
 }
 ```
-- Ejemplo de un RuleSet propio (sin implementar todas las variables): 
+- Ejemplo de un RuleSet propio: 
 ```
 package de.zalando.zally.ruleset.falabella
 
