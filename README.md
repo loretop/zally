@@ -77,7 +77,6 @@ class FIFTitleRule {
    }
 }
 ```
-- OJO: no compilará ante cualquier error de sintaxis (espacios después de corchetes, debe haber una línea en blanco al final, etc)
 
 ### Crear un set de reglas 
 
